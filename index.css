@@ -47,16 +47,115 @@ table {
 	border-spacing: 0;
 }
 body {
-	margin: 20px;
+	margin: 80px;
+
 }
 
-.container header p {
+.container .menu p {
 	display: inline-block;
-	margin: 10px 10px;
-	border: 0px solid;
-	background: grey;
+	text-align: center;
+	width: 200px;
+	font-size: 28px;
+	border: 0px 100px solid;
 	border-radius: 20px;
-	padding: 20px;
+	padding: 10px 10px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
 
 }
-	
+
+
+.box1 {
+	background: #FF764E;
+	margin-left: 100px;
+	margin-right: 250px;
+
+}
+.box2 { 
+	background: #5ED3EB;
+	margin-right: 250px;
+}
+.box3 {
+	background: #FFCD69;
+}
+.header-box {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.intro {
+	display: inline-block;
+	width: 400px;
+}
+
+.intro img {
+	border-radius: 50%;
+}
+
+.additional-info {
+	display: inline-block;
+	width: 800px;
+	height: 200px;
+}
+
+
+h1 {
+	font-family: 'Chelsea Market'; 
+	font-size: 70px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.about p {
+	font-family: 'Roboto Mono', monospace;
+	background: #DDB9A3;
+	padding: 20px;
+	text-align: center; 
+	color: white; 
+	font-size: 25px;
+}
+
+.content-row img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.caption {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mountain {
+	display: block;
+	max-height: 400px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.container footer p {
+	display: inline-block;
+	margin-right: 170px;
+	margin-left: auto;
+	width: 200px;
+	text-align: center;
+	font-size: 28px;
+	border: 0px 100px solid;
+	border-radius: 20px;
+	padding: 10px 10px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+
